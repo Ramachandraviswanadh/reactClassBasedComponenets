@@ -1,12 +1,18 @@
-
+import React from 'react';
 import './App.css';
+import ChildComponent from './components/ChildComponent';
 
-function App() {
-  return (
-    <div className="App">
-      hi
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return (
+      <div className="App">
+        hi
+        <ChildComponent/>
+      </div>
+    );
+  }
 }
+
+
 
 export default App;
