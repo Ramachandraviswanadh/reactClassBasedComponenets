@@ -2,7 +2,7 @@ import React from 'react'
 import GrandChildComponent1 from './GrandChildComponent1'
 import GrandChildComponent2 from './GrandChildComponent2'
 class ChildComponent extends React.Component {
-    render() {
+   render() {
         return(
             <>
             <h2>i am child</h2>
